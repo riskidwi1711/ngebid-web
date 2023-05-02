@@ -1,0 +1,155 @@
+.back-blue {
+    position: absolute;
+    width: 100vw;
+    height: 875px;
+    left: 0px;
+    top: 1835px;
+    z-index: -1;
+    background: #0084D6;
+}
+
+.get-container {
+    position: relative;
+}
+
+.get-desc {
+    width: 557px;
+    height: 296px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+    color: #FFFFFF;
+}
+
+.btn-get-appstore {
+    width: 234px;
+    height: 62px;
+    padding-inline: 42px;
+    padding-block: 17px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    /* ont-family: 'Poppins'; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.btn-get-playstore {
+    width: 234px;
+    height: 62px;
+    padding-inline: 42px;
+    padding-block: 17px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    /* ont-family: 'Poppins'; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.h-62 {
+    height: 62px;
+}
+
+.smokeperson {
+    position: absolute;
+    width: 407px;
+    height: 219px;
+    left: 68px;
+    bottom: -50px;
+}
+
+.group-app-image {
+    display: none;
+}
+
+.bidder-image{
+    display: none;
+}
+
+
+@media only screen and (max-width: 922px) {
+    .back-blue {
+        position: absolute;
+        width: 100vw;
+        height: auto;
+        min-height: 735px;
+        left: 0px;
+        top: 1835px;
+        z-index: -1;
+        background: #0084D6;
+    }
+
+    .ngebid-app-images {
+        display: none;
+    }
+
+    .get-desc {
+        width: 279px;
+        height: 140px;
+        left: 30px;
+        top: 0;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 35px;
+        /* or 109% */
+
+
+        color: #FFFFFF;
+    }
+
+    .btn-get-appstore,
+    .btn-get-playstore {
+        width: 132px;
+        height: 35px;
+        padding-inline: 20px;
+        padding-block: 9px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 100px;
+        /* ont-family: 'Poppins'; */
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 60px;
+    }
+
+    .bidder-image {
+        display: block;
+        position: absolute;
+        width: 183px;
+        height: 146px;
+        left: 41px;
+        top: 0;
+    }
+
+    .get-container {
+        margin-top: 20px;
+        top: 298px;
+    }
+
+    .group-app-image {
+        display: block;
+        position: absolute;
+        width: 95vw;
+        left: 10px;
+        bottom: 0;
+    }
+
+    .smokeperson{
+        display: none;
+    }
+
+
+}
+
+

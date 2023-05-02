@@ -1,0 +1,30 @@
+.header {
+    padding-top: 44px;
+    padding-left: 77px;
+    padding-right: 77px;
+    
+}
+
+.ngebid-logo {
+    width: 221.62px;
+    height: 55px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .ngebid-logo {
+        position: absolute;
+        width: 111px;
+        height: 24px;
+        left: 123px;
+        top: 47px;
+
+    }
+}

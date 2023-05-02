@@ -1,0 +1,22 @@
+import NgebidLogoBlack from './ngebid-logo-black.png';
+import HelloPeopleImage from './hello-pepole.png';
+import MainAppImage from './phone.png';
+import PapanImage from './papan.png';
+import OrholdImage from './orhold.png';
+import LightningImage from './lightning.png';
+import BeSellerImage from './mask-group3.png';
+import CheckImage from './check.png';
+import PersonWithLight from './orang-senter.png';
+import NgebidImages from './ngebid-images.png';
+import AppleLogo from './apple.png';
+import PlaystoreLogo from './playstore.png';
+import SmokeImage from './smoke.png';
+import NgebidLogoWhite from './ngebid-logo-white.png';
+import TwitterImage from './twitter.png';
+import TiktokImage from './tiktok.png';
+import InstagramImage from './instagram.png';
+import BidderImage from './bidder.png';
+import GroupAppImages from './group-app.png';
+import SiapImage from './siap.png';
+
+export {NgebidLogoBlack,SiapImage, NgebidImages,TiktokImage,BidderImage,GroupAppImages, InstagramImage, TwitterImage, NgebidLogoWhite, HelloPeopleImage, MainAppImage,PersonWithLight,SmokeImage, PlaystoreLogo,AppleLogo, PapanImage, OrholdImage, LightningImage, BeSellerImage, CheckImage};

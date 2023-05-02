@@ -1,0 +1,425 @@
+.orhold {
+    background: url('./../assets/orhold.png');
+    height: 475px;
+    width: 100vw;
+    background-size: cover;
+    border-radius: 0px 0px 100px 100px;
+
+}
+
+.orhold_container {
+    position: absolute;
+    background: url('./../assets/papan.png');
+    background-size: cover;
+    height: 875px;
+}
+
+.lightning {
+    position: absolute;
+    width: 207px;
+    height: 247px;
+    left: 114px;
+    top: 747px;
+
+}
+
+.box-1 {
+    position: absolute;
+    width: 471px;
+    height: 502px;
+    left: 193px;
+    top: 230px;
+
+    background: #000000;
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 81px;
+}
+
+.box-2 {
+    position: absolute;
+    width: 472px;
+    height: 502px;
+    left: 741px;
+    top: 230px;
+
+    background: #076C42;
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 81px;
+}
+
+.jadi-pelelang {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    /* or 150% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.space-31 {
+    margin-bottom: 31px;
+}
+
+.be-seller {
+    position: absolute;
+    bottom: 0;
+    width: 290px;
+    background: url('./../assets/mask-group3.png');
+    border-radius: 21px, 21px, 0, 0;
+    height: 320px;
+}
+
+.be-bidder {
+    position: absolute;
+    bottom: 0;
+    width: 299px;
+    background: url('./../assets/mask-group-bidder.png');
+    border-radius: 21px, 21px, 0, 0;
+    height: 320px;
+}
+
+.check {
+    width: 58px;
+    height: 41px;
+    margin-left: 10px;
+}
+
+.person-with-senter {
+    position: absolute;
+    width: 200px;
+    right: 0;
+    bottom: 0;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.text-show-up {
+    display: none;
+}
+
+@media only screen and (max-width: 1020px) {
+    .orhold {
+        width: 100vw;
+        border-radius: 0px 0px 50px 50px;
+    }
+
+    .orhold_container {
+        width: 100vw;
+        height: 1010px;
+        background: none;
+        background-color: #272727;
+
+    }
+
+    .container-box {
+        position: absolute;
+        top: 78px;
+        left: 0;
+        right: 0;
+        align-items: center;
+        display: flex;
+        gap: 25px;
+        flex-direction: column-reverse;
+        height: 100%;
+        justify-content: start;
+        width: 100%;
+    }
+
+    .box-1,
+    .box-2 {
+        position: relative;
+        top: unset;
+        left: unset;
+        width: 270px;
+        height: 280px;
+        border-radius: 15px;
+        padding-top: 15px;
+    }
+
+
+    .jadi-pelelang {
+        font-size: 18px;
+        line-height: unset;
+    }
+
+    .be-bidder {
+        width: 180px;
+        background: url('./../assets/mask-group3.png');
+        border-radius: 21px, 21px, 0, 0;
+        height: 200px;
+        background-size: cover;
+    }
+    .lightning {
+        position: absolute;
+        top: 1000px;
+        width: 95px;
+        height: auto;
+        left: 39px;
+        top: 1100px;
+    }
+
+    .check {
+        width: 40px;
+        height: 26px;
+    }
+
+    .be-seller {
+        width: 180px;
+        background: url('./../assets/mask-group-bidder.png');
+        border-radius: 21px, 21px, 0, 0;
+        height: 200px;
+        background-size: cover;
+    }
+
+    .text-show-up {
+        display: block;
+        position: absolute;
+        bottom: 138px;
+        left: 40px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 270px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title-show-up {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 45px;
+
+        display: flex;
+        align-items: center;
+
+        color: #FFFFFF;
+    }
+
+    .desc-show-up {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 145.5%;
+        /* or 22px */
+
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .person-with-senter {
+        position: absolute;
+        width: 115px;
+        right: 0;
+        bottom: 0;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+}
+
+/* .container-box {
+    position: absolute;
+    top: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+} */
+
+/* @media only screen and (max-width: 800px) {
+
+    .box-1,
+    .box-2 {
+        position: relative;
+        top: unset;
+        left: unset;
+        width: 374px;
+        height: 475px;
+        border-radius: 15px;
+        padding-top: 15px;
+    }
+
+    .back-putih {
+        width: 100vw;
+        min-height: 100vh;
+        height: auto;
+    }
+
+    .yellow-circle {
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        left: 579px;
+        top: 216px;
+        border-radius: 999px;
+        background: #F4BD08;
+    }
+
+    .image-main-app {
+        position: absolute;
+        width: 210.67000000000002px;
+        height: 387.49px;
+        left: 675.0799999999999px;
+        top: 174.51px;
+        border-radius: 16px;
+    }
+
+    .cukup_1_menit {
+        position: absolute;
+        width: 389px;
+        height: 45px;
+        left: 64px;
+        top: 231px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+        color: #343A40;
+    }
+
+    .desc_cukup_1_menit {
+        position: absolute;
+        width: 327px;
+        height: 130px;
+        left: 64px;
+        top: 290px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 145.5%;
+        color: #343A40;
+    }
+
+    .tag_line {
+        position: absolute;
+        width: 358px;
+        height: 96px;
+        left: 64px;
+        top: 409px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 45px;
+        color: #000000;
+    }
+
+    .cobain_ngebid {
+        position: absolute;
+        width: 259px;
+        height: 62px;
+        left: 64px;
+        top: 517px;
+        background: #1A3EEC;
+        border-radius: 100px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 60px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .back-blue {
+        position: absolute;
+        width: 100vw;
+        height: 875px;
+        left: 0px;
+        top: 1640px;
+        z-index: -1;
+        background: #0084D6;
+    }
+
+    .lightning {
+        position: absolute;
+        width: 150px;
+        height: unset;
+        left: 114px;
+        top: 786px;
+    }
+
+    .get-desc {
+        width: 557px;
+        height: 296px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 65px;
+        color: #FFFFFF;
+    }
+
+    .person-with-senter {
+        position: absolute;
+        width: 163px;
+        right: 0;
+        bottom: 0;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    .get-desc {
+        width: 492px !important;
+        height: 156px !important;
+        font-family: 'Montserrat';
+        font-style: normal !important;
+        font-weight: 700 !important;
+        font-size: 38px !important;
+        line-height: 58px !important;
+        color: #FFFFFF;
+    }
+
+    .back-blue {
+        position: absolute;
+        width: 100vw;
+        height: 875px;
+        left: 0px;
+        top: 1640px !important;
+        z-index: -1;
+        background: #0084D6;
+    }
+
+    .back-black {
+        top: 2512px !important;
+    }
+
+    .jadi-pelelang {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px !important;
+        line-height: 60px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .footer-tag {
+        font-size: 16px !important;
+    }
+
+    .email {
+        font-size: 18px !important;
+    }
+
+    .address {
+        font-size: 18px !important;
+    }
+    div#container-social>a{
+        width: 40px;
+    }
+
+    .header{
+        padding-left: 64px;
+    }
+} */

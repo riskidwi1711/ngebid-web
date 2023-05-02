@@ -1,0 +1,154 @@
+.back-black {
+    position: absolute;
+    width: 100vw;
+    height: 875px;
+    left: 0px;
+    top: 2709px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: -10;
+    background: #000000;
+}
+
+.h-94 {
+    height: 94px;
+}
+
+.h-136 {
+    height: 136px;
+}
+
+.ngebid-logo-white-footer {
+    width: 331px;
+    height: 69px;
+    top: 111px;
+    margin-bottom: 94px;
+}
+
+.hellopeopleimage {
+    position: absolute;
+    width: 127px;
+    height: 231px;
+    bottom: 0;
+    right: 59px;
+}
+
+.address {
+    width: 482px;
+    height: 70px;
+    /* 
+font-family: 'Montserrat'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 145.5%;
+    /* or 35px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.footer-tag {
+    position: absolute;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    bottom: 35px;
+    /* or 35px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.email {
+
+    width: 482px;
+    height: 35px;
+    /* 
+font-family: 'Poppins'; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 145.5%;
+    /* identical to box height, or 35px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 1020px) {
+    .back-black {
+        overflow: hidden;
+        position: absolute;
+        width: 100vw;
+        height: auto;
+        min-height: 450px;
+        left: 0px;
+        top: 2570px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        z-index: -10;
+        background: #000000;
+    }
+
+    .ngebid-logo-white-footer {
+        width: 127px;
+        margin-bottom: 45px;
+        height: 27px;
+    }
+
+    .h-94{
+        height: 30px;
+    }
+
+    .h-136{
+        height: 38px;
+    }
+
+        
+    .address {
+        width: 302px;
+        height: 70px;
+        /* 
+    font-family: 'Montserrat'; */
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 145.5%;
+        /* or 35px */
+
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .email {
+        font-size: 14px;
+    }
+
+    .footer-tag {
+        text-align: center;
+        width: 95%;
+        font-size: 10px;
+        bottom: 10px;
+    }
+
+    .hellopeopleimage {
+        width: 74.28px;
+        right: -20px;
+        height: 135.45px;
+        transform: rotate(-10.38deg);
+    }
+
+    #container-social>a{
+        width: 28px;
+    }
+
+}
